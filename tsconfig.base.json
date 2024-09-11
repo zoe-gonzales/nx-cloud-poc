@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-cloud-poc/design-system": ["packages/design-system/src/index.ts"]
+      "@nx-cloud-poc/design-system": ["packages/design-system/src/index.ts"],
+      "@nx-cloud-poc/utils": ["packages/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
