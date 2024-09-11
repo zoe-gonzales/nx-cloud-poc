@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { add } from '@nx-cloud-poc/utils';
 
 const StyledDesignSystem = styled.div`
   color: pink;
@@ -9,6 +10,7 @@ interface Props {
 }
 
 export function DesignSystem(props: Props) {
+  add('4', 2);
   return (
     <StyledDesignSystem>
       <h1>Welcome to DesignSystem!</h1>
