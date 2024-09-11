@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@nx-cloud-poc/design-system": ["packages/design-system/src/index.ts"],
+      "@nx-cloud-poc/shared-components": [
+        "packages/shared-components/src/index.ts"
+      ],
       "@nx-cloud-poc/utils": ["packages/utils/src/index.ts"]
     }
   },
