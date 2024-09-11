@@ -10,11 +10,12 @@ interface Props {
 }
 
 export function DesignSystem(props: Props) {
-  add('4', 2);
+  const added = add(4, 2);
   return (
     <StyledDesignSystem>
       <h1>Welcome to DesignSystem!</h1>
       <h2>Your theme is: {props.theme}</h2>
+      <div>{added}</div>
     </StyledDesignSystem>
   );
 }
